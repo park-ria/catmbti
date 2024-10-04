@@ -71,7 +71,9 @@ const Home = () => {
           <img className="rounded-circle" src="/cat/ggompang.jpeg" />
         </LogoImg>
         <Desc>MBTI를 기반으로하는 나랑 잘 맞는 고양이 찾기😺</Desc>
-        <Button onClick={handleClickButton}>테스트 시작하기</Button>
+        <Button variant="danger" onClick={handleClickButton}>
+          테스트 시작하기
+        </Button>
       </Contents>
     </Wrapper>
   );

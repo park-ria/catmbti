@@ -117,11 +117,13 @@ const Question = () => {
         <Title>{QuestionData[questionNo].title}</Title>
         <ButtonGroup>
           <Button
+            variant="danger"
             onClick={() => handleClickButton(1, QuestionData[questionNo].type)}
           >
             {QuestionData[questionNo].answera}
           </Button>
           <Button
+            variant="danger"
             onClick={() => handleClickButton(0, QuestionData[questionNo].type)}
           >
             {QuestionData[questionNo].answerb}
