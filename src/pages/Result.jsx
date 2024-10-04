@@ -49,6 +49,7 @@ const LogoImg = styled.div`
 `;
 
 const Desc = styled.div`
+  width: 80%;
   margin: 10px 0;
   padding: 8px 14px;
   font-size: 20px;
@@ -57,11 +58,14 @@ const Desc = styled.div`
   color: #fff;
   border-radius: 8px;
   strong {
+    margin-left: 10px;
     background: cornflowerblue;
   }
 `;
 
-const DescText = styled.div``;
+const DescText = styled.div`
+  margin-top: 20px;
+`;
 
 const ButtonGroup = styled.div`
   display: flex;
@@ -91,7 +95,6 @@ const Result = () => {
         </LogoImg>
         <Desc>
           ⭐예비집사님과 찰떡궁합인 😻고양이는
-          <br />
           <strong>
             {resultData.best}형 {resultData.name}
           </strong>
