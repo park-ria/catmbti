@@ -26,6 +26,13 @@ const Contents = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  button {
+    background: salmon;
+    border: none;
+    &:hover {
+      background: crimson;
+    }
+  }
 `;
 
 const Title = styled.div`
@@ -37,7 +44,7 @@ const LogoImg = styled.div`
   & > img {
     width: 350px;
     height: 350px;
-    border: 4px solid #555;
+    border: 4px solid darkkhaki;
   }
 `;
 
@@ -46,9 +53,12 @@ const Desc = styled.div`
   padding: 8px 14px;
   font-size: 20px;
   text-align: center;
-  background: #a314dc;
+  background: darkkhaki;
   color: #fff;
   border-radius: 8px;
+  strong {
+    background: cornflowerblue;
+  }
 `;
 
 const ButtonGroup = styled.div`
@@ -80,7 +90,10 @@ const Result = () => {
         <Desc>
           ⭐예비집사님과 찰떡궁합인 😻고양이는
           <br />
-          {resultData.best}형 {resultData.name} 입니다.
+          <strong>
+            {resultData.best}형 {resultData.name}
+          </strong>{" "}
+          입니다.
         </Desc>
         <ButtonGroup>
           <Button onClick={handleClickButton}>테스트 다시 시작하기</Button>

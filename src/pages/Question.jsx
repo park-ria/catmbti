@@ -20,7 +20,7 @@ const Title = styled.div`
   text-align: center;
   margin-bottom: 10px;
   padding: 8px 16px;
-  background: crimson;
+  background: darkkhaki;
   border-radius: 8px;
 
   @media screen and (max-width: 780px) {
@@ -45,8 +45,11 @@ const ButtonGroup = styled.div`
     width: 400px;
     height: 200px;
     font-size: 18px;
-    background: purple;
+    background: salmon;
     border: none;
+    &:hover {
+      background: crimson;
+    }
   }
   @media screen and (max-width: 780px) {
     flex-direction: column;

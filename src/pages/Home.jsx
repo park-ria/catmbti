@@ -29,7 +29,7 @@ const Contents = styled.div`
     background: salmon;
     border: none;
     &:hover {
-      background: darksalmon;
+      background: crimson;
     }
   }
 `;
