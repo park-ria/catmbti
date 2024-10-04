@@ -52,7 +52,9 @@ const GlobalStyle = createGlobalStyle`
 
   body{
     font-family: "SimKyungha";
-    background: url("https://e0.pxfuel.com/wallpapers/320/51/desktop-wallpaper-cats-and-macbook-pc-and-mac.jpg") center/cover no-repeat;
+    //background: url("../cat/cat_bg.jpg") center/cover no-repeat;
+    /* background: url("https://e0.pxfuel.com/wallpapers/320/51/desktop-wallpaper-cats-and-macbook-pc-and-mac.jpg") center/cover no-repeat; */
+    background: url("https://img.freepik.com/free-vector/cat-lover-patterned-background-template_53876-100661.jpg?size=626&ext=jpg&ga=GA1.2.559930315.1728006854&semt=ais_hybrid") center/cover no-repeat;
     height: 100vh;
   }
 `;
