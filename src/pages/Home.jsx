@@ -11,7 +11,7 @@ const Wrapper = styled.div`
   align-items: center;
   width: 100%;
   height: 100vh;
-  color: #fff;
+  color: #222;
 `;
 
 const Header = styled.div`
@@ -36,7 +36,7 @@ const LogoImg = styled.div`
   & > img {
     width: 350px;
     height: 350px;
-    border: 4px solid #fff;
+    border: 4px solid #6b8b1f;
   }
 `;
 
@@ -44,7 +44,8 @@ const Desc = styled.div`
   margin: 10px 0;
   padding: 8px 14px;
   font-size: 20px;
-  background: crimson;
+  background: #6b8b1f;
+  color: #fff;
   border-radius: 8px;
 `;
 
