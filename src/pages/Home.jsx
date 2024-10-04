@@ -25,6 +25,13 @@ const Contents = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  button {
+    background: salmon;
+    border: none;
+    &:hover {
+      background: darksalmon;
+    }
+  }
 `;
 
 const Title = styled.div`
@@ -36,7 +43,7 @@ const LogoImg = styled.div`
   & > img {
     width: 350px;
     height: 350px;
-    border: 4px solid #6b8b1f;
+    border: 8px solid darkkhaki;
   }
 `;
 
@@ -44,7 +51,7 @@ const Desc = styled.div`
   margin: 10px 0;
   padding: 8px 14px;
   font-size: 20px;
-  background: #6b8b1f;
+  background: darkkhaki;
   color: #fff;
   border-radius: 8px;
 `;
