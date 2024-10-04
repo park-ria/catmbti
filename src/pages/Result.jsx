@@ -61,6 +61,8 @@ const Desc = styled.div`
   }
 `;
 
+const DescText = styled.div``;
+
 const ButtonGroup = styled.div`
   display: flex;
   gap: 10px;
@@ -92,9 +94,12 @@ const Result = () => {
           <br />
           <strong>
             {resultData.best}형 {resultData.name}
-          </strong>{" "}
+          </strong>
           입니다.
+          <br />
+          <DescText>{resultData.desc}</DescText>
         </Desc>
+
         <ButtonGroup>
           <Button onClick={handleClickButton}>테스트 다시 시작하기</Button>
           <KakaoShareButton data={resultData} />
